@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   /* background-color: green; */
+   min-height: 100vh;
+   background-color: #d1d5db;
+   font-family: sans-serif;
+}
+html {
+   height: 100vh;
+   /* background-color: yellow; */
+   background-color: #e5e7eb;
+   height: 100%;
+}
+
+body {
+   height: 100vh;
+}
